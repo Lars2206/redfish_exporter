@@ -22,9 +22,8 @@ RUN git clone https://github.com/Lars2206/redfish_exporter.git /app
 #RUN cd /app
 #RUN ls /app
 RUN make build --directory /app
-#RUN ls /app/scripts
-RUN rm -rf /etc/yum*
-RUN rm -rf /var/lib/yum/*
+#RUN rm -rf /etc/yum*
+#RUN rm -rf /var/lib/yum/*
 EXPOSE 9610 
 
 CMD /app/build/redfish_exporter --config.file=/etc/redfish_exporter/redfish_exporter.yml
