@@ -4,7 +4,7 @@ Docker Image based on https://github.com/jenningsloy318/redfish_exporter.
 For more Information please look at her Git Repository
 
 
-##Configurtion
+## Configuration
 
 Published Port: 9610
 
