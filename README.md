@@ -5,11 +5,12 @@ For more Information please look at her Git Repository
 
 
 ##Configurtion
+
 Published Port: 9610
 
 The Config has to be mounted under /etc/redfish_exporter/redfish_exporter.yml
 
-An example configure given as an [example][1]:
+An example configure given as an example:
 ```yaml
 hosts:
   10.36.48.24:
@@ -20,6 +21,6 @@ hosts:
     password: pass
 ```
 Note that the ```default`` entry is useful as it avoids an error
-condition that is discussed in [this issue][2].
+condition.
 
 
